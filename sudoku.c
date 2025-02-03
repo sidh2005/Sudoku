@@ -18,7 +18,7 @@ int main(void) {
 
     boxSize = sqrt(size);
     if (boxSize * boxSize != size || size > MAX_SIZE) {
-        printf("The sizse must be a perfect square and ≤ %d×%d.\n", MAX_SIZE, MAX_SIZE);
+        printf("The size must be a perfect square and ≤ %d×%d.\n", MAX_SIZE, MAX_SIZE);
         return 1;
     }
 
